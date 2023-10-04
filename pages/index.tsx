@@ -15,6 +15,7 @@ const Index: NextPage<AppProps> = ({appID}) => {
 
   return (
     <>
+      <p>login page</p>
       <passage-auth app-id={appID}></passage-auth>
     </>
   )
